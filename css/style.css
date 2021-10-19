@@ -1,0 +1,29 @@
+@import 'modern-normalize.css';
+@import 'header.css';
+@import 'cards.css';
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    color: rgba(0, 0, 0, 1);
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1440px;
+    box-sizing: content-box;
+}
+
+h1,
+h2,
+h3,
+p,
+ul,
+ol,
+li,
+a,
+img {
+    margin: 0;
+    padding: 0;
+}

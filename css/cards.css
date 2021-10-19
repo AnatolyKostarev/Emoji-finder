@@ -1,0 +1,80 @@
+.card {
+    background: #D4D3D8;
+}
+
+.cards__emoji {
+    padding: 80px 226px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.cards__item {
+    padding: 24px;
+    background: #fff;
+    border: 1px solid #DEE2E6;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+.cards__symbol {
+    margin-bottom: 18px;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 48px;
+    text-align: center;
+}
+
+.cards__title {
+    margin-bottom: 12px;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 28px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.cards__keywords {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+    text-align: center;
+    color: rgba(63, 68, 74, 1);
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1439px) {
+    .cards__emoji {
+        padding: 80px 140px;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+    .cards__emoji {
+        padding: 80px 20px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .cards__emoji {
+        gap: 10px;
+        padding: 80px 10px;
+    }
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+    .cards__emoji {
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+        padding: 80px 10px;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 575px) {
+    .cards__emoji {
+        grid-template-columns: 1fr;
+        row-gap: 10px;
+        padding: 80px 10px;
+    }
+}
+
